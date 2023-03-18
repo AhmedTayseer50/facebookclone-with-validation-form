@@ -31,6 +31,72 @@ main {
     transform: translate(-50%, -50%);
 }
 
+@media only screen and (min-width:100px) and (max-width:576px){
+  
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        top: 50%;
+        left: 50%;
+    }
+
+    .colm-logo img {
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .colm-logo h2 {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 0 30px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+@media only screen and (min-width:576px) and (max-width: 768px){
+    .row {
+        display: flex;
+        flex-direction: column;
+        top: 50%;
+        left: 50%;
+    }
+
+    .colm-logo img {
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .colm-logo h2 {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 0 30px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media only screen and (min-width:768px) and (max-width: 992px){
+    .row {
+        width: 750px;
+    }
+    .colm-form {
+        margin-right: 70px;
+    }
+}
+
 .colm-logo {
     flex: 0 0 50%;
     text-align: left;
